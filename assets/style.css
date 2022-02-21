@@ -49,12 +49,20 @@
   font-size: 1.6rem;
 }
 
+.form input {
+  outline: unset;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 .formButton {
   display: block;
   background-color: rebeccapurple;
   color: white;
   border: 0.1rem solid;
   margin: 1.5rem;
+  padding: 1.0rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   max-width: 10rem;
