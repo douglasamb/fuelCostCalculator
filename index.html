@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculo de viagem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allan:wght@700&family=DM+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body class="main-bg main-content">
+  <header>
+    <h1 class="header">Calcule o seu gasto de combustível na viagem!</h1>
+  </header>
+<!-- seccao do formulario / form section -->
+<main>
+    <img class="imgContent" src="https://images.unsplash.com/photo-1532931899774-fbd4de0008fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="Imagem Carro">  
+  <form class="form" method="get">
+    <p>Tipo de combustível: <input type="text" id="fuel" placeholder="Alcool / Gasolina / Diesel"></p>
+    <p>Distância (em km) entre os destinos: <input type="number" id="distance" placeholder="0" step="0.01"></p>
+    <p>Consumo médio do veículo na estrada (em km/L): <input type="number" id="consumption" placeholder="0" step="0.01"></p>
+    <p>Preço do Combustível R$: <input type="number" id="price" placeholder="0.00" step="0.01"></p>
+    <button class="formButton">Enviar</button>
+  </form>
+</main>
+ <div class="result"></div>
+  <script src="script.js"></script>
+<!-- Rodapé / Footer -->
+<footer class="white-bg footer">
+  <p><a href="https://github.com/douglasamb" class="footerContent" target="_blank">Desenvolvido por: Douglas Borges</a></p>
+</footer>
+</body>
+</html>
