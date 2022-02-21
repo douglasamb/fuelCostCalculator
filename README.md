@@ -1,7 +1,7 @@
 <h1 align="center">Calculadora de gastos com combustível na viagem</h1>
 <h2 align="center">(en = Travel fuel expenses calculator)</h2>
 <div>
-<a href="https://eurostanceclothes.netlify.app/" target="_blank" rel="noopener noreferrer">eurostanceclothes.netlify.app/</a>
+<a href="https://fuelcalculator.netlify.app" target="_blank" rel="noopener noreferrer">https://fuelcalculator.netlify.app/</a>
   <p align="left">
     <li> Sobre (About)</li>
     <li>Tecnoligias (Tecnoligies)</li>
